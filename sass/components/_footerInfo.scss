@@ -1,0 +1,30 @@
+.footer-info {
+  margin-bottom: 50px;
+  span {
+    color: $secondary-color;
+    font-size: 30px;
+    line-height: calc(34 / 30);
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    &::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 100rem;
+      background-color: $secondary-color;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  h3 {
+    color: $secondary-color;
+    font-size: 60px;
+    line-height: 72px;
+    opacity: 0.6;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+}

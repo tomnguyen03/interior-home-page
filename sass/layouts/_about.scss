@@ -1,0 +1,37 @@
+.about {
+  padding: 258px 0 150px 0;
+  background-color: $bg-light-color;
+  &-header {
+    @include flex(center, space-between);
+    gap: 0 238px;
+  }
+  &-heading {
+    width: 100%;
+    max-width: 400px;
+  }
+  &-desc {
+    @include width(638px);
+  }
+  &-content {
+    @include flex(center, space-between);
+    &-left {
+      @include width(616px);
+      margin-top: 110px;
+    }
+    &-right {
+      @include width(513px);
+      margin-top: 245px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      align-items: center;
+      &-line {
+        @include width(407px);
+      }
+      h3 {
+        font-size: 52px;
+        line-height: calc(61 / 52);
+      }
+    }
+  }
+}

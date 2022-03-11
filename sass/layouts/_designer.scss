@@ -1,0 +1,20 @@
+.designer {
+  padding-top: 160px;
+  background-color: $primary-color;
+  &-main {
+    // display: flex;
+    // flex-direction: row;
+    @include flex(center, space-between) // gap: 140px;
+;
+  }
+  &-content {
+    @include width(616px);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    h2,
+    p {
+      color: $secondary-color;
+    }
+  }
+}

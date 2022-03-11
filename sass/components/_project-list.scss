@@ -1,0 +1,28 @@
+.project-list {
+  height: 712px;
+  position: relative;
+  &-item {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &-info {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    h3 {
+      font-family: var(--font-p);
+      color: $bg-light-color;
+      font-size: 50px;
+      line-height: calc(62 / 50);
+      font-weight: 500;
+    }
+    a {
+      font-size: 24px;
+      line-height: calc(30 / 24);
+      margin-top: 15px;
+      display: block;
+    }
+  }
+}

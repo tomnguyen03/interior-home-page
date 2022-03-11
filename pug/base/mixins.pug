@@ -1,0 +1,14 @@
+mixin articleItem(image, title, date)
+  .article-item 
+    .article-image
+      img(srcset=image, alt="")
+    .article-content 
+      h3.g-heading.article-title= title 
+      img(srcset="/assets/line-5.png 2x", alt="")
+      .article-meta 
+        a.g-link Read more 
+        p.g-text= date
+mixin footerInfo(title,address)
+  .footer-info 
+    span= title 
+    h3= address

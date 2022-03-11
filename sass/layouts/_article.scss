@@ -1,0 +1,18 @@
+.article {
+  padding: 180px 0;
+  background-color: $bg-light-color;
+  &-main {
+    @include flex(center, center);
+    flex-direction: column;
+    & > a {
+      display: block;
+      margin: 50px 0 72px;
+      color: $primary-color;
+    }
+  }
+
+  &-list {
+    @include flex(center, space-between);
+    gap: 32px;
+  }
+}

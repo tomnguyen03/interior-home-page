@@ -1,0 +1,25 @@
+.footer {
+  background-color: $primary-color;
+  padding: 100px 0 20px;
+  &-top {
+    @include flex(center, space-between);
+  }
+  &-contact {
+    h2 {
+      color: $secondary-color;
+      font-size: 30px;
+      display: block;
+      margin-bottom: 70px;
+    }
+  }
+  &-bottom {
+    @include flex(center, space-between);
+    margin-top: 150px;
+    p {
+      color: $secondary-color;
+      opacity: 0.4;
+      font-size: 24px;
+      line-height: calc(32 / 24);
+    }
+  }
+}

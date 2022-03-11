@@ -1,0 +1,11 @@
+.project {
+  padding-top: 120px;
+  background-color: $bg-light-color;
+  &-header {
+    @include flex(center, space-between);
+    a {
+      color: $primary-color;
+    }
+    margin-bottom: 60px;
+  }
+}
