@@ -22,4 +22,28 @@
       line-height: calc(32 / 24);
     }
   }
+  @media screen and (max-width: 767.98px) {
+    padding-top: 50px;
+    &-top {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    &-contact {
+      h2 {
+        font-size: 25px;
+      }
+    }
+    &-image {
+      @include width(350px);
+    }
+    &-bottom {
+      margin-top: 50px;
+      p {
+        font-size: 16px;
+      }
+      img {
+        display: none;
+      }
+    }
+  }
 }

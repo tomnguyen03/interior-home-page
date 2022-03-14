@@ -34,4 +34,26 @@
       }
     }
   }
+  @media screen and (max-width: 767.98px) {
+    padding: 100px 0;
+    &-header {
+      flex-direction: column;
+      gap: 20px;
+      align-items: flex-start;
+    }
+    &-content {
+      flex-direction: column;
+      &-left {
+        margin-top: 70px;
+      }
+      &-right {
+        margin-top: 60px;
+        h3 {
+          text-align: center;
+          font-size: 36px;
+          line-height: calc(42 / 36);
+        }
+      }
+    }
+  }
 }

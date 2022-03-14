@@ -27,4 +27,13 @@
     font-weight: 400;
     margin-top: 20px;
   }
+  @media screen and (max-width: 767.98px) {
+    margin-bottom: 30px;
+    span {
+      font-size: 24px;
+    }
+    h3 {
+      font-size: 30px;
+    }
+  }
 }

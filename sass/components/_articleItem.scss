@@ -28,4 +28,23 @@
       padding-right: 80px;
     }
   }
+  @media screen and (max-width: 767.98px) {
+    &-content {
+      h3 {
+        font-size: 20px;
+      }
+      img {
+        margin-top: 20px;
+      }
+    }
+    &-meta {
+      margin-top: 20px !important;
+      a {
+        font-size: 18px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  }
 }

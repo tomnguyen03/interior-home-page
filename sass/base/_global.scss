@@ -44,3 +44,19 @@ body {
 .m-auto {
   margin: 0 auto;
 }
+@media screen and (max-width: 767.98px) {
+  .container {
+    padding: 0 30px;
+  }
+  .g-heading {
+    font-size: 48px;
+  }
+  .g-text {
+    font-size: 18px;
+    line-height: calc(30 / 18);
+  }
+  .g-link {
+    font-size: 18px;
+    line-height: calc(30 / 18);
+  }
+}

@@ -25,4 +25,16 @@
       display: block;
     }
   }
+  @media screen and (max-width: 767.98px) {
+    height: 300;
+    &-info {
+      h3 {
+        font-size: 32px;
+      }
+      a {
+        font-size: 18px;
+        margin-top: 5px;
+      }
+    }
+  }
 }
